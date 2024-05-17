@@ -460,3 +460,22 @@ footer p{
     text-align: center;
 }
 
+.description-title{
+    color: red;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#tn1{
+    height: 17rem;
+
+}
+
+#Proj2{
+    height: 17rem;
+}
+
+
+#ProfilePicMain{
+    border-radius: 30px;
+}

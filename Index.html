@@ -38,7 +38,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/Profiile_pic.JPG" alt="John Doe profile picture" />
+        <img id="ProfilePicMain" src="./assets/Profiile_pic.JPG" alt="Diego Martinez Picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -77,7 +77,8 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="assets/about-pic.png"
+            id="slider-img"
+            src="assets/LinkedinPhoto.png"
             alt="Profile picture"
             class="about-pic"
           />
@@ -104,19 +105,20 @@
               />
               <h3>Education</h3>
               <p>
-                B.Sc. Bachelors Degree <br />
-                Emphasis on Big Data Analytics
+                B.S. Bachelors Degree <br />
+                Computer Science <br>w/ emphasis on Big Data
               </p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Blanditiis, culpa eaque consectetur laborum, non eos pariatur,
-              facere ducimus illo quos suscipit est. Nam, amet. Sunt neque eaque
-              tempora, architecto libero nesciunt alias dolores dolorem nihil
-              cumque! Nam error commodi fugit accusamus modi libero iusto quae
-              impedit. Beatae harum libero omnis!
+              Originally a nursing major, I came into the tech industry with 
+              practically zero expereince. Ever since then I have had a growing love 
+              and passion for what this field has to offer. I am learning to love the journey
+              required to be the best I can possibly be in this field. With two summers at Microsoft 
+              under my belt, my love for what this field has to offer has only grown substantially more.
+              I hope to be able to learn and work with the best and brightest out there! I am always looking 
+              for a challenge.
             </p>
           </div>
         </div>
@@ -134,7 +136,7 @@
       <div class="experience-details-containers">
         <div class="about-containers">
           <div class="details-containers">
-            <h2 class="experience-sub-title">Software Development</h2>
+            <h2 class="experience-sub-title">Programming Languages</h2>
             <div class="article-container">
               <article>
                 <img src="assets/checkmark.png" alt="Checkmark" class="icon" />
@@ -153,7 +155,7 @@
               <article>
                 <img src="assets/checkmark.png" alt="Checkmark" class="icon" />
                 <div>
-                  <h3>Machine Learning</h3>
+                  <h3>Java</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -167,6 +169,13 @@
               <article>
                 <img src="assets/checkmark.png" alt="Checkmark" class="icon" />
                 <div>
+                  <h3>C#</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Checkmark" class="icon" />
+                <div>
                   <h3>Python</h3>
                   <p>Experienced</p>
                 </div>
@@ -174,19 +183,19 @@
             </div>
           </div>
           <div class="details-containers">
-            <h2 class="experience-sub-title">Programming Languages</h2>
+            <h2 class="experience-sub-title">Software Development</h2>
             <div class="article-container">
               <article>
                 <img src="assets/checkmark.png" alt="Checkmark" class="icon" />
                 <div>
-                  <h3>SQL</h3>
+                  <h3>Database Design</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
                 <img src="assets/checkmark.png" alt="Checkmark" class="icon" />
                 <div>
-                  <h3>MATLAB</h3>
+                  <h3>Scrum Method</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -195,6 +204,13 @@
                 <div>
                   <h3>Git</h3>
                   <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="Checkmark" class="icon" />
+                <div>
+                  <h3>Jira</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
             </div>
@@ -216,23 +232,24 @@
           <div class="details-containers color-container">
             <div class="article-container">
               <img
-                src="assets/project-1.png"
+                src="assets/NavToolThumbNail.jpeg"
                 alt="Project1"
                 class="project-img"
+                id="tn1"
               />
-              <h2 class="experience-sub-title project-title">Project One</h2>
+              <h2 class="experience-sub-title project-title">Neurodivergent Navigational Tool</h2>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="location.href= 'https://github.com/Dmartinez324/Spring'"
+                  onclick="location.href= 'https://github.com/Dmartinez324/Neurodivergent-Nav-Too.'"
                 >
                   Github
                 </button>
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="location.href= 'https://github.com/Dmartinez324/Spring'"
+                  onclick="location.href= 'https://youtu.be/H2aIAW3Gqls'"
                 >
-                  Live Demo
+                  Video Demo
                 </button>
               </div>
             </div>
@@ -240,21 +257,22 @@
           <div class="details-containers color-container">
             <div class="article-container">
               <img
-                src="assets/project-2.png"
+                id="Proj2"
+                src="assets/Gravity2.jpeg"
                 alt="project-2"
                 class="project-img"
               />
-              <h2 class="experience-sub-title project-title">Project Two</h2>
+              <h2 class="experience-sub-title project-title">Gravity Simulator</h2>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="location.href= 'https://github.com/Dmartinez324/Spring'"
+                  onclick="location.href= 'https://github.com/Dmartinez324/Gravity'"
                 >
                   Github
                 </button>
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="location.href= 'https://github.com/Dmartinez324/Spring'"
+                  onclick="location.href= 'https://dmartinez324.github.io/Gravity/gravity.html'"
                 >
                   Live Demo
                 </button>
@@ -264,23 +282,17 @@
           <div class="details-containers color-container">
             <div class="article-container">
               <img
-                src="assets/project-3.png"
+                src="assets/OCR_PIC.png"
                 alt="Project3"
                 class="project-img"
               />
-              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <h2 class="experience-sub-title project-title">Optical Character Recognition</h2>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="location.href= 'https://github.com/Dmartinez324/Spring'"
+                  onclick="location.href= 'https://github.com/Dmartinez324/FIRST_OCR_PROJ'"
                 >
                   Github
-                </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href= 'https://github.com/Dmartinez324/Spring'"
-                >
-                  Live Demo
                 </button>
               </div>
             </div>
